@@ -1,5 +1,9 @@
-const disReturn = document.getElementById("display");
+var disReturn = document.getElementById("display");
 
 const calc = document.getElementById("calculator");
+const buttons = document.getElementsByClassName("btn");
 
-calc.addEventListener("click", )
+
+buttons.onclick = function (value) {
+    disReturn += value;
+}

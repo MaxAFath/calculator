@@ -17,26 +17,30 @@
         </div>
         <div class="col">
             <div class="row">
-                <button class="btn num row" value="9">9</button>
-                <button class="btn num row" value="8">8</button>
-                <button class="btn num row" value="7">7</button>
+                <button class="btn num row" onclick="addToDisplay(9)">9</button>
+                <button class="btn num row" onclick="addToDisplay(8)">8</button>
+                <button class="btn num row" onclick="addToDisplay(7)">7</button>
             </div>
             <div class="row">
-                <button class="btn num row" value="6">6</button>
-                <button class="btn num row" value="5">5</button>
-                <button class="btn num row" value="4">4</button>
+                <button class="btn num row" onclick="addToDisplay(6)">6</button>
+                <button class="btn num row" onclick="addToDisplay(5)">5</button>
+                <button class="btn num row" onclick="addToDisplay(4)">4</button>
             </div>
             <div class="row">
-                <button class="btn num row" value="3">3</button>
-                <button class="btn num row" value="2">2</button>
-                <button class="btn num row" value="1">1</button>
+                <button class="btn num row" onclick="addToDisplay(3)">3</button>
+                <button class="btn num row" onclick="addToDisplay(2)">2</button>
+                <button class="btn num row" onclick="addToDisplay(1)">1</button>
             </div>
             <div class="row">
-                <button class="btn num zero" value="0">0</button>
+                <button class="btn num zero" onclick="addToDisplay(0)">0</button>
             </div>
         </div>
         <div class="col">
-
+            <button class="btn function">+</button>
+            <button class="btn function">-</button>
+            <button class="btn function">*</button>
+            <button class="btn function">/</button>
+            <button class="btn function" onclick="calculate(document.getElementById('display'))">=</button>
         </div>
     </div>
     <script src="./assets/js/cal.js"></script>
