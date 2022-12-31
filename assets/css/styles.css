@@ -7,14 +7,14 @@
     padding: 10px;
 }
 
-.col{
-
+.nums{
+    column-count: 3;
 }
 
-.row{
+.funs{
 
 }
 
 .btn{
-    
+
 }

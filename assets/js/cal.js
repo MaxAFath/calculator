@@ -6,7 +6,6 @@ const calc = document.getElementById("calculator");
 const buttons = document.getElementsByClassName("btn");
 const perts = document.getElementsByClassName("function");
 
-onload.preventDefault();
 
 
 buttons.onclick = function (value) {
