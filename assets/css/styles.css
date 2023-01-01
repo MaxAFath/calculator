@@ -8,6 +8,11 @@
     
 }
 
+#display{
+    background-color: black;
+    color: antiquewhite;
+}
+
 .btns{
     column-count: 2;
 }
