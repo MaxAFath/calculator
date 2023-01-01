@@ -15,32 +15,34 @@
         <div class="row" id="display">
 
         </div>
-        <div class="col nums">
-            <div class="row">
-                <button class="btn num row" onclick="addToDisplay(9)">9</button>
-                <button class="btn num row" onclick="addToDisplay(8)">8</button>
-                <button class="btn num row" onclick="addToDisplay(7)">7</button>
+        <div class="btns">
+            <div class="col nums">
+                <div class="row">
+                    <button class="btn num row" onclick="addToDisplay(9)">9</button>
+                    <button class="btn num row" onclick="addToDisplay(8)">8</button>
+                    <button class="btn num row" onclick="addToDisplay(7)">7</button>
+                </div>
+                <div class="row">
+                    <button class="btn num row" onclick="addToDisplay(6)">6</button>
+                    <button class="btn num row" onclick="addToDisplay(5)">5</button>
+                    <button class="btn num row" onclick="addToDisplay(4)">4</button>
+                </div>
+                <div class="row">
+                    <button class="btn num row" onclick="addToDisplay(3)">3</button>
+                    <button class="btn num row" onclick="addToDisplay(2)">2</button>
+                    <button class="btn num row" onclick="addToDisplay(1)">1</button>
+                </div>
+                <div class="row">
+                    <button class="btn num zero" onclick="addToDisplay(0)">0</button>
+                </div>
             </div>
-            <div class="row">
-                <button class="btn num row" onclick="addToDisplay(6)">6</button>
-                <button class="btn num row" onclick="addToDisplay(5)">5</button>
-                <button class="btn num row" onclick="addToDisplay(4)">4</button>
+            <div class="col funs">
+                <button class="btn function" value="+">+</button>
+                <button class="btn function" value="-">-</button>
+                <button class="btn function" value="*">*</button>
+                <button class="btn function" value="/">/</button>
+                <button class="btn function" onclick="calculate(document.getElementById('display'))">=</button>
             </div>
-            <div class="row">
-                <button class="btn num row" onclick="addToDisplay(3)">3</button>
-                <button class="btn num row" onclick="addToDisplay(2)">2</button>
-                <button class="btn num row" onclick="addToDisplay(1)">1</button>
-            </div>
-            <div class="row">
-                <button class="btn num zero" onclick="addToDisplay(0)">0</button>
-            </div>
-        </div>
-        <div class="col funs">
-            <button class="btn function" value="+">+</button>
-            <button class="btn function" value="-">-</button>
-            <button class="btn function" value="*">*</button>
-            <button class="btn function" value="/">/</button>
-            <button class="btn function" onclick="calculate(document.getElementById('display'))">=</button>
         </div>
     </div>
     <script src="./assets/js/cal.js"></script>
