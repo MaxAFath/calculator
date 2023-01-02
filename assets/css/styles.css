@@ -3,6 +3,7 @@
 #calculator{
     margin: auto;
     width:50%;
+    height: auto;
     border: 3px solid black;
     padding: 10px;
     
@@ -16,10 +17,13 @@
 .btns{
     column-count: 2;
 }
-
 .nums{
+    column-count: 1;
+}
+#columns{
     column-count: 3;
 }
+
 
 .funs{
 
